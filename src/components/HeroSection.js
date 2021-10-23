@@ -7,7 +7,6 @@ function HeroSection() {
         <div className="hero-container">
             <img src="/images/bamboo.jpg" alt="" />
             <h1>VISIT JAPAN</h1>
-            <p>What are you waiting for?</p>
         </div>
     )
 }
