@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import style from '../Cucina.css';
+import '../Cucina.css';
 
 export default function Cucina() {
     return ( 
