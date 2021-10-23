@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: linear-gradient(90deg, rgb(36, 45, 56) 0%, rgb(26, 23, 23) 100%);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 80px;
     display: flex;
@@ -22,7 +22,7 @@
   .navbar-logo {
     color: #fff;
     justify-self: start;
-    margin-left: 10px;
+    margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -38,7 +38,7 @@
   .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
-    grid-gap: 18px;
+    grid-gap: 10px;
     list-style: none;
     text-align: center;
     width: 60vw;
@@ -46,11 +46,6 @@
     margin-right: 2rem;
   }
 
-  .nav-menu a.active {
-    background-color: #9b2d76;
-    color: white;
-  }
-  
   .nav-item {
     height: 10px;
   }
@@ -69,6 +64,7 @@
 
   .dropdown-content {
     display: none;
+    margin-top: 5px;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -85,7 +81,7 @@
   }
   
   .dropdown-content a:hover {
-    background-color: #9b2d767e;
+    background-color: #e472c2d5;
   }
   
   .dropdown:hover .dropdown-content {
@@ -93,7 +89,7 @@
   }
   
   .nav-links:hover {
-    color: #e76fbf7e;
+    color: #e472c2d5;
     transition: all 0.2s ease-out;
   }
   
