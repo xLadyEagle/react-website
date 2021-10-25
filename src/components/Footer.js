@@ -21,6 +21,13 @@ function Footer() {
             </section>
             <div className="footer-links">
                 <div className="footer-link-wrapper">
+                <div className="footer-link-item">
+                        <h2>Contact Us</h2>
+                        <Link to="/">Contact</Link>
+                        <Link to="/">Support</Link>
+                        <Link to="/">Destinations</Link>
+                        <Link to="/">Sponsorships</Link>
+                    </div>
                     <div className="footer-link-item">
                         <h2>Social Media</h2>
                         <Link to="/">Instagram</Link>
