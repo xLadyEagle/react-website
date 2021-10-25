@@ -1,0 +1,111 @@
+body{
+    background:#d4ced3;
+    font-size: 160%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0%;
+    text-align: justify;
+}
+
+
+p {
+    font-weight: 400;
+    justify-content: right;
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 36px;
+
+}
+
+section {
+    margin: 2% 6% 2% 6%; 
+}
+
+
+/*  Immagini */
+
+.gallery {
+    font-size: small;
+    font-variant: small-caps;
+    margin: 40px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    width: 180px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+}
+
+.gallerycard {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+div.caption {
+  padding: 5px;
+  text-align: center;
+}
+
+
+.left {
+  float: left;
+  margin-left: 6%;
+  width: 50%;
+} 
+
+.clear {
+  clear: both;
+}
+
+
+/* Box immagini */
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 408px;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.boximg {
+  width: 100%;
+  position: relative;
+  height: calc(100% - 41px);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.boxspan {
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  height: 167px;
+  line-height: 2.6;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+
+.map {
+    width: 40%;
+    margin: 2%;
+    position: relative;
+    z-index: 0;
+}

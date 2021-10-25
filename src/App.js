@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Fragment } from 'react/cjs/react.production.min';
 import Home from './components/pages/Home';
 import Cucina from './components/pages/Cucina';
+import Primavera from './components/pages/Primavera';
 import Footer from './components/Footer';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/primavera" component={Primavera} />
         <Route path="/cucina" component={Cucina} />
       </Switch>
       <Footer />
