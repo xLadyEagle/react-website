@@ -1,6 +1,6 @@
 body{
     background:#d4ced3;
-    font-size: 160%;
+    font-size: 200%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0%;
     text-align: justify;
@@ -11,7 +11,7 @@ p {
     font-weight: 400;
     justify-content: right;
     color: #000;
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 15px;
     line-height: 36px;
 
@@ -25,14 +25,12 @@ section {
 /*  Immagini */
 
 .gallery {
-    font-size: small;
-    font-variant: small-caps;
-    margin: 40px;
-    margin-right: 5px;
+    font-size: 16px;
+    margin: 30px;
     border: 1px solid #ccc;
     background-color: rgb(255, 255, 255);
     float: left;
-    width: 180px;
+    width: 190px;
     padding: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
 }
@@ -104,7 +102,7 @@ div.caption {
 }
 
 .map {
-    width: 40%;
+    width: 50%;
     margin: 2%;
     position: relative;
     z-index: 0;

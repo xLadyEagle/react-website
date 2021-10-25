@@ -7,7 +7,7 @@ function Footer() {
         <div className="footer-container">
             <section className="footer-subscription">
                 <p className="footer-subscription-heading">
-                    Join the Adwenture newsletter to receive our best vacation deals
+                    Join the Adventure newsletter to receive our best vacation deals
                 </p>
                 <p className="footersubscription-text">
                     You can unsubscribe at any time.

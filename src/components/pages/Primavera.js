@@ -75,6 +75,53 @@ export default function Primavera() {
                             la fioritura e allungare o accorciare la stagione dei fiori di ciliegio.</p>
                     </section>
 
+                    <section>
+                        <h2>La fioritura dei ciliegi a Tokyo</h2>
+
+                        <div className={style.gallery}>
+                            <img className={style.gallerycard} src="/images/meguro-river.jpg" alt="Meguro River" />
+                            <div className={style.caption}>Meguro River</div>
+                        </div>
+                        <div className={style.gallery}>
+                            <img className={style.gallerycard} src="/images/shinjuku-gyoen.jpg" alt="Shinjuku Gyoen" />
+                            <div className={style.caption}>Shinjuku Gyoen</div>
+                        </div>
+                        <div className={style.gallery}>
+                            <img className={style.gallerycard} src="/images/chidorigafuchi.jpg" alt="Chidorigafuchi" />
+                            <div className={style.caption}>Chidorigafuchi</div>
+                        </div>
+                        <div className={style.gallery}>
+                            <img className={style.gallerycard} src="/images/ueno.jpg" alt="Ueno Onshi Park" />
+                            <div className={style.caption}>Ueno Onshi Park</div>
+                        </div>
+                        <div className={style.gallery}>
+                            <img className={style.gallerycard} src="/images/midtown.jpg" alt="Tokyo Mid Town" />
+                            <div className={style.caption}>Tokyo Mid Town</div>
+                        </div>
+
+                        <div className={style.clear}>
+                        <p>Nonostante si tratti di una grande città, anche a Tokyo ci sono tantissimi posti da cui ammirare i ciliegi in fiore.<br></br>
+                            Di seguito elenchiamo i <b>5 posti migliori</b> per ammirare la bellezza effimera dei fiori.
+                        </p>
+                        <ol>
+                            <li><b>Meguro River (目黒川)</b> 
+                            <p>Uno dei luoghi più famosi per ammirare i ciliegi in fiore a Tokyo è il fiume Meguro, oltre 800 ciliegi formano una galleria rosa per 3,8 chilometri lungo il fiume in un panorama mozzafiato perfetto da fotografare.</p></li>
+                            
+                            <li><b>Shinjuku Gyoen (新宿御苑)</b>
+                            <p>Uno dei più grandi parchi nazionali della città, il giardino ospita circa 1.000 alberi di ciliegio.</p></li>
+        
+                            <li><b>Chidorigafuchi (千鳥ヶ淵)</b>
+                            <p>Il punto più pittoresco di Tokyo per ammirare i ciliegi in fiore.</p></li>
+                            
+                            <li><b>Ueno Onshi Park (上野恩賜公園)</b>
+                                <p>Il luogo più affollato per vedere fiori di ciliegio a Tokyo, in quanto molto visitatori vi si recano per l'Hanami.</p></li>
+        
+                            <li><b>Tokyo Mid Town（東京ミッドタウン）</b>
+                            <p>Tokyo MidTown è estremamente popolare per vedere i fiori di ciliegio (Sakura) di notte.</p></li>
+                        </ol>
+                        </div>
+                    </section>
+
             </section>
 
 
