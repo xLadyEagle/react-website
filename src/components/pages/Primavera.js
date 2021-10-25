@@ -49,7 +49,7 @@ export default function Primavera() {
                                 <span className={style.boxspan}>Hanami Dango</span>
                             </div>
                                 
-                            <div class={style.box}>
+                            <div className={style.box}>
                                 <img className={style.boximg} src="/images/sakura-mochi.jpg" />
                                 <span className={style.boxspan}>Sakura Mochi</span>
                             
@@ -78,6 +78,11 @@ export default function Primavera() {
                     <section>
                         <h2>La fioritura dei ciliegi a Tokyo</h2>
 
+                        <div className={style.clear}>
+                        <p>Nonostante si tratti di una grande città, anche a Tokyo ci sono tantissimi posti da cui ammirare i ciliegi in fiore.<br></br>
+                            Di seguito elenchiamo i <b>5 posti migliori</b> per ammirare la bellezza effimera dei fiori.
+                        </p>
+
                         <div className={style.gallery}>
                             <img className={style.gallerycard} src="/images/meguro-river.jpg" alt="Meguro River" />
                             <div className={style.caption}>Meguro River</div>
@@ -99,11 +104,8 @@ export default function Primavera() {
                             <div className={style.caption}>Tokyo Mid Town</div>
                         </div>
 
-                        <div className={style.clear}>
-                        <p>Nonostante si tratti di una grande città, anche a Tokyo ci sono tantissimi posti da cui ammirare i ciliegi in fiore.<br></br>
-                            Di seguito elenchiamo i <b>5 posti migliori</b> per ammirare la bellezza effimera dei fiori.
-                        </p>
-                        <ol>
+                        
+                        <ol className={style.clear}>
                             <li><b>Meguro River (目黒川)</b> 
                             <p>Uno dei luoghi più famosi per ammirare i ciliegi in fiore a Tokyo è il fiume Meguro, oltre 800 ciliegi formano una galleria rosa per 3,8 chilometri lungo il fiume in un panorama mozzafiato perfetto da fotografare.</p></li>
                             

@@ -18,9 +18,8 @@ p {
 }
 
 section {
-    margin: 2% 6% 2% 6%; 
+  margin: 2% 6% 2% 6%; 
 }
-
 
 /*  Immagini */
 
@@ -42,7 +41,7 @@ section {
     z-index: 0;
 }
 
-div.caption {
+.caption {
   padding: 5px;
   text-align: center;
 }
@@ -105,5 +104,4 @@ div.caption {
     width: 50%;
     margin: 2%;
     position: relative;
-    z-index: 0;
 }
