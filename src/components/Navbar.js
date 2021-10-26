@@ -38,7 +38,7 @@ function Navbar() {
                             <div className="dropdown-content">
                                 <Link to="">Kyoto</Link>
                                 <Link to="">Tokyo</Link>
-                                <Link to="">Nara</Link>	
+                                <Link to="/nara">Nara</Link>	
                                 <Link to="">Osaka</Link>	
                             </div>
                         </li>

@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import Cucina from './components/pages/Cucina';
 import Primavera from './components/pages/Primavera';
 import Footer from './components/Footer';
+import Nara from './components/pages/Nara';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/nara" component={Nara} />
         <Route path="/primavera" component={Primavera} />
         <Route path="/cucina" component={Cucina} />
       </Switch>

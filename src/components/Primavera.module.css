@@ -1,6 +1,5 @@
 body{
     background:#d4ced3;
-    font-size: 200%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0%;
     text-align: justify;
@@ -11,7 +10,7 @@ p {
     font-weight: 400;
     justify-content: right;
     color: #000;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 15px;
     line-height: 36px;
 
