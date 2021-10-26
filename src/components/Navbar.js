@@ -36,10 +36,10 @@ function Navbar() {
                         <li className="nav-item dropdown">
                             <Link to= "" className="dropbtn">Cosa vedere</Link>
                             <div className="dropdown-content">
-                                <Link to="">Kyoto</Link>
-                                <Link to="">Tokyo</Link>
+                                <Link to="/kyoto">Kyoto</Link>
+                                <Link to="/tokyo">Tokyo</Link>
                                 <Link to="/nara">Nara</Link>	
-                                <Link to="">Osaka</Link>	
+                                <Link to="/osaka">Osaka</Link>	
                             </div>
                         </li>
                         <li className='nav-item'>
