@@ -13,9 +13,13 @@
     object-fit: contain;
 }
 
+p{
+    font-size: 23px;
+}
+
 .text {
     padding: 4rem;
-    background: rgba(255, 255, 255, 0.63);
+    background: rgba(255, 255, 255, 0.753);
   }
 
   .list {
@@ -28,4 +32,6 @@
       position: relative;
       z-index: 0;
       border: 1px solid rgba(0, 0, 0, 0.5);
+      margin-bottom: 2%;
+      margin-top: 2%;
   }

@@ -6,16 +6,20 @@ export default function Cucina() {
     return ( 
 
     <Fragment>
-        <div className={style.row}>
-            <div className={style.leftcolumn}>
-                    <div className={style.card}>
-                    <h1 className={style.header}>Mangiare in Giappone</h1>
-                    <h3 className={style.subheader}>Una grande varietà di piatti</h3>
-                    <img className={style.fullsize} src="images/Specialità regionali.jpg" />
-                    <p>La <b>cucina giapponese</b>, famosa nel mondo per le sue tradizioni culinarie antiche e ancora oggi ben radicate, è considerata <b>una delle più sane</b>, 
-                        complete ed equilibrate, sia in Oriente sia in Occidente. Gran parte delle ricette giapponesi vengono preparate utilizzando <b>due ingredienti</b>
-                        fondamentali: il <b>riso</b> e il <b>pesce</b>, impiegato principalmente crudo, sempre di prima scelta e rigorosamente freschissimo.</p>
-                    </div>
+
+
+            <div className={style.title}>
+                    <img src="/images/japanstreets-21.jpg" alt="Mangiare in Giappone" />
+                    <h1 className={style.title}>CUCINA GIAPPONESE</h1>
+            </div>
+
+            <div className={style.text}>
+                <h1>Una grande varietà di piatti</h1>
+                <br></br>
+                <p>La <b>cucina giapponese</b>, famosa nel mondo per le sue tradizioni culinarie antiche e ancora oggi ben radicate, è considerata <b>una delle più sane</b>, 
+                complete ed equilibrate, sia in Oriente sia in Occidente. Gran parte delle ricette giapponesi vengono preparate utilizzando <b>due ingredienti </b>
+                fondamentali: il <b>riso</b> e il <b>pesce</b>, impiegato principalmente crudo, sempre di prima scelta e rigorosamente freschissimo.</p>
+            
                 <div className={style.card}>
                     <h1 className={style.header}>Guida ai piatti tipici</h1>
                     <h3 className={style.subheader}>10 piatti da provare assolutamente</h3>
@@ -102,8 +106,13 @@ export default function Cucina() {
                     E’ leggero e morbido all’interno con una crosta leggermente più dura. Ottimo da assaggiare appena sfornato in un negozio di Asakusa. </p>
                     <img className={style.aligncenter} src="/images/melonpan.jpg" />
                 </div>     
+            
+            
+            
             </div>
-        </div>
+
+                
+      
     </Fragment>
      );
 }

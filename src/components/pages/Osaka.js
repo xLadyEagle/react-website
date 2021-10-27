@@ -1,4 +1,4 @@
-import style from '../Osaka.module.css';
+import style from '../Cities.module.css';
 import React, { Fragment } from 'react';
 
 
@@ -11,6 +11,7 @@ export default function Nara()  {
             </div>
             <div className={style.text}>
                 <h1>Cosa vedere a Osaka</h1>
+                <br></br>
                 <p> Nara si trova a sud-est di Kyoto, un antico poeta giapponese la definì <b>“un fiore profumato in piena fioritura”</b>.
                     L’antica prefettura di Yamato, oggi prefettura di Nara, è <b>una delle culle della civiltà giapponese</b>.
                     Qui si trovano importanti templi ed un enorme parco al cui interno girano indisturbati migliaia di cervi.
@@ -58,6 +59,7 @@ export default function Nara()  {
             </div>
             <div>
                 <h1>Come raggiungere Nara</h1>
+                <br></br>
                 <p>Per raggiungere Nara, uno dei punti di partenza migliori è sicuramente la città di Kyoto e consiglio un’escursione in giornata. 
                 Ovviamente il mezzo di trasporto da preferire è il treno.
                 Se si è in possesso del Japan Rail Pass conviene prendere dalla Stazione JR di Kyoto la linea JR Nara e scendere alla stazione Nara (circa 44 minuti); 
