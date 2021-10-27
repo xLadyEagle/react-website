@@ -6,7 +6,7 @@ export default function Osaka()  {
     return ( 
         <Fragment>
             <div className={style.title}>
-                    <img src="./images/castle.jpeg" alt="Osaka" />
+                    <img src="/images/castle.jpeg" alt="Osaka" />
                     <h1 className={style.title}>OSAKA</h1>
             </div>
             <div className={style.text}>
@@ -27,7 +27,7 @@ export default function Osaka()  {
                                 Numerosissimi sono gli oggetti d'arte esposti tra cui armi, armature, mobili, ritratti, lettere. 
                                 Dall'ultimo piano si gode di una vista panoramica sulla città e sul meraviglioso parco circostante in cui si elevano centinaia di alberi tra cui magnifici ciliegi. 
                                 L'intera area è circondata da vasti fossati e poderose mura in pietra alte più di 20 metri.</p>
-                                <img className={style.thumbnail} src="./images/Osaka-Castle2.jpg" alt="Castello di Osaka"/>
+                                <img className={style.thumbnail} src="/images/Osaka-Castle2.jpg" alt="Castello di Osaka"/>
                             </li><br></br>
                             
                             <li><h2>Quartiere Minami (Namba - 難波)</h2>
@@ -36,7 +36,7 @@ export default function Osaka()  {
                                 Cuore del quartiere è la via <b>Dotonbori</b>, che si sviluppa accanto all’omonimo canale, dove si concentrano bar, ristoranti e locali notturni che alla sera illuminano l’area con le loro luci al neon e le insegne colorate e stravaganti, 
                                 attirando migliaia di visitatori e residenti che giungono qui per passeggiare, mangiare e godersi la vivace vita notturna. 
                                 Proprio le varie insegne sono una delle maggiori attrattive di Dotonbori e dell’intera zona, tanto che una di queste, l’enorme granchio meccanizzato del ristorante Kani Doraku, ne è diventato un simbolo.</p>
-                                <img className={style.thumbnail} src="./images/japanstreets-21.jpg" alt="Dotonbori"/>
+                                <img className={style.thumbnail} src="/images/japanstreets-21.jpg" alt="Dotonbori"/>
                             </li><br></br>
 
                             <li><h2>Shinsekai (新世界) e torre Tsutenkaku (通天閣)</h2>
@@ -45,7 +45,7 @@ export default function Osaka()  {
                                 <br></br>Il simbolo del quartiere è la <b>Torre Tsutenkaku</b>, la cui sagoma ricorda la Torre Eiffel. 
                                 <br></br>Nonostante sia stata distrutta dai bombardamenti della Seconda Guerra Mondiale, la torre è stata poi ricostruita in maniera fedele all'originale, ad eccezione dell'altezza: oggi la struttura è alta 103 metri, quasi il doppio rispetto alla precedente! 
                                 All'interno ci sono due osservatori posti a due diversi livelli; entrambi regalano belle viste sulla città e sul quartiere.</p>
-                                <img className={style.thumbnail} src="./images/OsakaStreets.jpg" alt="Shinsekai"/>
+                                <img className={style.thumbnail} src="/images/OsakaStreets.jpg" alt="Shinsekai"/>
                             </li><br></br>
                             
                             <li><h2>Tempio Shitenno-Ji (四天王寺)</h2>
@@ -55,7 +55,7 @@ export default function Osaka()  {
                                 Distrutto varie volte, è stato sempre ricostruito secondo l'architettura originale. 
                                 Com'era la volontà del suo fondatore, lo Shitenno-Ji assunse una missione di civilizzazione svolgendo un ruolo centrale nello vita culturale e sociale della comunità di Osaka. Nella Sala del tesoro è custodita una collezione di opere d'arte. 
                                 Da visitare anche il bel giardino ispirato alla dottrina cosmologica buddhista.</p>
-                                <img className={style.thumbnail} src="./images/Shitennoji.jpg" alt="Tempio Shitenno-Ji"/>
+                                <img className={style.thumbnail} src="/images/Shitennoji.jpg" alt="Tempio Shitenno-Ji"/>
                             </li><br></br>
 
                             <li><h2>Santuario Sumiyoshi Taisha (住吉大社)</h2>
