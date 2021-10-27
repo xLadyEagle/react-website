@@ -6,7 +6,7 @@ export default function Primavera() {
     return (
        <Fragment>
             <div className={style.title}>
-                    <img src="/images/primavera2.jpg" alt="Cherry blossoms" />
+                    <img src="/react-website/images/primavera2.jpg" alt="Cherry blossoms" />
                     <h1 className={style.title}>PRIMAVERA</h1>
             </div>
             <section className={style.text}>
@@ -24,11 +24,11 @@ export default function Primavera() {
 
 
                     <div className={style.gallery}>
-                        <img className={style.gallerycard} src="/images/OsakaDay1-2.jpg" alt="Himeji Castle" />
+                        <img className={style.gallerycard} src="/react-website/images/OsakaDay1-2.jpg" alt="Himeji Castle" />
                         <div className={style.caption}>Himeji Castle</div>
                     </div>
                     <div className={style.gallery}>
-                        <img className={style.gallerycard} src="/images/train.jpg" alt="Cherry Blossoms" />
+                        <img className={style.gallerycard} src="/react-website/images/train.jpg" alt="Cherry Blossoms" />
                         <div className={style.caption}>Cherry Blossoms</div>
                     </div>
             
@@ -46,17 +46,17 @@ export default function Primavera() {
                     <section>
                         <div className={style.container}>
                             <div className={style.box}>
-                                <img className={style.boximg} src="/images/hanamibento.jpg" />
+                                <img className={style.boximg} src="/react-website/images/hanamibento.jpg" />
                                 <span className={style.boxspan}>Hanami Bento (Lunch box/picnic food)</span>
                             </div>
                             
                             <div className={style.box}>
-                                <img className={style.boximg} src="/images/Hanami Dango.jpg" />
+                                <img className={style.boximg} src="/react-website/images/Hanami Dango.jpg" />
                                 <span className={style.boxspan}>Hanami Dango</span>
                             </div>
                                 
                             <div className={style.box}>
-                                <img className={style.boximg} src="/images/sakura-mochi.jpg" />
+                                <img className={style.boximg} src="/react-website/images/sakura-mochi.jpg" />
                                 <span className={style.boxspan}>Sakura Mochi</span>
                             
                             </div>
@@ -74,7 +74,7 @@ export default function Primavera() {
                     <section>
                         <h2>Previsioni fioritura dei ciliegi 2022</h2>
                         <br></br>
-                        <img className={style.map} src="/images/forecast2022.png" alt="Mappa fioritura 2022" /> 
+                        <img className={style.map} src="/react-website/images/forecast2022.png" alt="Mappa fioritura 2022" /> 
                         
                         <p>Il tempo medio di fioritura dei <i>sakura</i> può variare a seconda della posizione geografica 
                             all’interno del paese. Le aree con climi invernali più miti vedono fiorire prima i ciliegi. Solitamente, nelle regioni meridionali 
@@ -91,23 +91,23 @@ export default function Primavera() {
                         </p>
 
                         <div className={style.gallery}>
-                            <img className={style.gallerycard} src="/images/meguro-river.jpg" alt="Meguro River" />
+                            <img className={style.gallerycard} src="/react-website/images/meguro-river.jpg" alt="Meguro River" />
                             <div className={style.caption}>Meguro River</div>
                         </div>
                         <div className={style.gallery}>
-                            <img className={style.gallerycard} src="/images/shinjuku-gyoen.jpg" alt="Shinjuku Gyoen" />
+                            <img className={style.gallerycard} src="/react-website/images/shinjuku-gyoen.jpg" alt="Shinjuku Gyoen" />
                             <div className={style.caption}>Shinjuku Gyoen</div>
                         </div>
                         <div className={style.gallery}>
-                            <img className={style.gallerycard} src="/images/chidorigafuchi.jpg" alt="Chidorigafuchi" />
+                            <img className={style.gallerycard} src="/react-website/images/chidorigafuchi.jpg" alt="Chidorigafuchi" />
                             <div className={style.caption}>Chidorigafuchi</div>
                         </div>
                         <div className={style.gallery}>
-                            <img className={style.gallerycard} src="/images/ueno.jpg" alt="Ueno Onshi Park" />
+                            <img className={style.gallerycard} src="/react-website/images/ueno.jpg" alt="Ueno Onshi Park" />
                             <div className={style.caption}>Ueno Onshi Park</div>
                         </div>
                         <div className={style.gallery}>
-                            <img className={style.gallerycard} src="/images/midtown.jpg" alt="Tokyo Mid Town" />
+                            <img className={style.gallerycard} src="/react-website/images/midtown.jpg" alt="Tokyo Mid Town" />
                             <div className={style.caption}>Tokyo Mid Town</div>
                         </div>
 

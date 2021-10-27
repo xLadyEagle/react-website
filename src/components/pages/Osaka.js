@@ -6,7 +6,7 @@ export default function Osaka()  {
     return ( 
         <Fragment>
             <div className={style.title}>
-                    <img src="/images/castle.jpeg" alt="Osaka" />
+                    <img src="/react-website/images/castle.jpeg" alt="Osaka" />
                     <h1 className={style.title}>OSAKA</h1>
             </div>
             <div className={style.text}>
@@ -27,7 +27,7 @@ export default function Osaka()  {
                                 Numerosissimi sono gli oggetti d'arte esposti tra cui armi, armature, mobili, ritratti, lettere. 
                                 Dall'ultimo piano si gode di una vista panoramica sulla città e sul meraviglioso parco circostante in cui si elevano centinaia di alberi tra cui magnifici ciliegi. 
                                 L'intera area è circondata da vasti fossati e poderose mura in pietra alte più di 20 metri.</p>
-                                <img className={style.thumbnail} src="/images/Osaka-Castle2.jpg" alt="Castello di Osaka"/>
+                                <img className={style.thumbnail} src="/react-website/images/Osaka-Castle2.jpg" alt="Castello di Osaka"/>
                             </li><br></br>
                             
                             <li><h2>Quartiere Minami (Namba - 難波)</h2>
@@ -36,7 +36,7 @@ export default function Osaka()  {
                                 Cuore del quartiere è la via <b>Dotonbori</b>, che si sviluppa accanto all’omonimo canale, dove si concentrano bar, ristoranti e locali notturni che alla sera illuminano l’area con le loro luci al neon e le insegne colorate e stravaganti, 
                                 attirando migliaia di visitatori e residenti che giungono qui per passeggiare, mangiare e godersi la vivace vita notturna. 
                                 Proprio le varie insegne sono una delle maggiori attrattive di Dotonbori e dell’intera zona, tanto che una di queste, l’enorme granchio meccanizzato del ristorante Kani Doraku, ne è diventato un simbolo.</p>
-                                <img className={style.thumbnail} src="/images/japanstreets-21.jpg" alt="Dotonbori"/>
+                                <img className={style.thumbnail} src="/react-website/images/japanstreets-21.jpg" alt="Dotonbori"/>
                             </li><br></br>
 
                             <li><h2>Shinsekai (新世界) e torre Tsutenkaku (通天閣)</h2>
@@ -45,7 +45,7 @@ export default function Osaka()  {
                                 <br></br>Il simbolo del quartiere è la <b>Torre Tsutenkaku</b>, la cui sagoma ricorda la Torre Eiffel. 
                                 <br></br>Nonostante sia stata distrutta dai bombardamenti della Seconda Guerra Mondiale, la torre è stata poi ricostruita in maniera fedele all'originale, ad eccezione dell'altezza: oggi la struttura è alta 103 metri, quasi il doppio rispetto alla precedente! 
                                 All'interno ci sono due osservatori posti a due diversi livelli; entrambi regalano belle viste sulla città e sul quartiere.</p>
-                                <img className={style.thumbnail} src="/images/OsakaStreets.jpg" alt="Shinsekai"/>
+                                <img className={style.thumbnail} src="/react-website/images/OsakaStreets.jpg" alt="Shinsekai"/>
                             </li><br></br>
                             
                             <li><h2>Tempio Shitenno-Ji (四天王寺)</h2>
@@ -55,7 +55,7 @@ export default function Osaka()  {
                                 Distrutto varie volte, è stato sempre ricostruito secondo l'architettura originale. 
                                 Com'era la volontà del suo fondatore, lo Shitenno-Ji assunse una missione di civilizzazione svolgendo un ruolo centrale nello vita culturale e sociale della comunità di Osaka. Nella Sala del tesoro è custodita una collezione di opere d'arte. 
                                 Da visitare anche il bel giardino ispirato alla dottrina cosmologica buddhista.</p>
-                                <img className={style.thumbnail} src="/images/Shitennoji.jpg" alt="Tempio Shitenno-Ji"/>
+                                <img className={style.thumbnail} src="/react-website/images/Shitennoji.jpg" alt="Tempio Shitenno-Ji"/>
                             </li><br></br>
 
                             <li><h2>Santuario Sumiyoshi Taisha (住吉大社)</h2>
@@ -64,7 +64,7 @@ export default function Osaka()  {
                                 Come tutti i santuari antichi, presenta forme architettoniche semplici che ne enfatizzano la purezza. Lo honden, il cuore del luogo di culto che custodisce i kami, è composto da quattro edifici in legno identici, rialzati, recintati, con pareti composte da assi affiancate e tetti a due falde senza curvatura delle gronde. 
                                 <br></br>Molto elegante l'accoppiata cromatica bianco-cremisi dei pilastri e delle pareti e le coperture dagli svettanti chigi (i caratteristici elementi ornamentali che incrociano oltre il colmo del tetto).
                                 Come da tradizione, il santuario è immerso in un bosco che lo separa dal mondo profano e riconduce il visitatore all'armonia della comunione con la Natura.</p>
-                                <img className={style.thumbnail} src="/images/Sumiyoshi-Taisha-Osaka.jpg" alt="Santuario Sumiyoshi Taisha"/>
+                                <img className={style.thumbnail} src="/react-website/images/Sumiyoshi-Taisha-Osaka.jpg" alt="Santuario Sumiyoshi Taisha"/>
                             </li><br></br>
 
                             <li><h2>Umeda (梅田)</h2>
@@ -72,7 +72,7 @@ export default function Osaka()  {
                             Tutt’intorno si erge un’enorme quantità di complessi commerciali con negozi, ricche food court e intrattenimenti e grattacieli al cui interno si trovano uffici, banche e hotel che offrono una base strategica per i turisti. 
                             <br></br>A dominare il panorama è l’<b>Umeda Sky Building</b>, l’edificio più alto nonché <b>simbolo</b> indiscusso della città di Osaka: è composto da due torri di 40 piani, collegate tra loro mediante ponti e una scala mobile.
                             <br></br>Dallo Skywalk situato in cima all’edificio, i visitatori possono avere fantastica <b>vista panoramica a 360°</b> su Osaka, mentre alla base delle torri si trova un rigoglioso giardino con percorsi pedonali e giochi d’acqua che regala un’oasi di pace nel cuore della città.</p>
-                            <img className={style.thumbnail} src="/images/umeda-sky-building.jpg" alt="Umeda"/>
+                            <img className={style.thumbnail} src="/react-website/images/umeda-sky-building.jpg" alt="Umeda"/>
                             </li><br></br>
 
                             <li><h2>Universal Studios Japan</h2>
@@ -81,7 +81,7 @@ export default function Osaka()  {
                             Attualmente gli Universal Studios Japan hanno 8 sezioni: Hollywood, New York, San Francisco, Jurassic Park, Waterworld, Amity Village, Universal Wonderland e The Wizarding World of Harry Potter. 
                             I visitatori possono godere di molte attrazioni: giostre a misura di bambino, adrenaliniche montagne russe e simulatori basati 
                             su film famosi come Spiderman, Ritorno al futuro, Terminator e Jurassic Park.</p>
-                            <img className={style.thumbnail} src="/images/universal-studios-japan.png" alt="Universal Studios Japan"/>
+                            <img className={style.thumbnail} src="/react-website/images/universal-studios-japan.png" alt="Universal Studios Japan"/>
                             </li><br></br>
 
                             <li><h2>Acquario di Osaka Kaiyukan (海遊館)</h2>
@@ -89,13 +89,13 @@ export default function Osaka()  {
                                 attraverso 14 grandi vasche vengono ricreati gli ambienti naturali di diverse aree dell’Oceano Pacifico.
                                 Non solo pesci all'acquario di Osaka, ma anche anfibi, rettili, mammiferi, uccelli e piante, per un totale di circa 620 specie e 30.000 soggetti.
                                 Uno dei temi principali è quello legato alla fascia vulcanica che circonda il Pacifico; da non perdere le meduse del "Padiglione delle meduse fluttuanti" e la "Sala di progettazione", dove si svolgono varie esibizioni.</p>
-                                <img className={style.thumbnail} src="/images/osaka-aquarium.jpg" alt="Acquario di Osaka"/>
+                                <img className={style.thumbnail} src="/react-website/images/osaka-aquarium.jpg" alt="Acquario di Osaka"/>
                             </li><br></br>
         
                             <li><h2>Teatro delle marionette Bunraku (文楽)</h2>
                             <p>Osaka è la città natìa del Bunraku, il teatro di marionette tradizionali, forma d’arte giapponese antica di 300 anni.
                             Le grandi marionette sono solitamente manovrate da 3 burattinai che, magistralmente, riescono a dare straordinaria grazia e sembianze quasi umane a queste marionette.</p>
-                            <img className={style.thumbnail} src="/images/bunraku-puppets.jpg" alt="Bunraku"/>
+                            <img className={style.thumbnail} src="/react-website/images/bunraku-puppets.jpg" alt="Bunraku"/>
                         </li><br></br>   
                         </ol>
             </div>
