@@ -10,7 +10,7 @@ export default function Kyoto()  {
                     <h1 className={style.title}>KYOTO</h1>
             </div>
             <div className={style.text}>
-                <h1>Cosa vedere a Kyoto</h1>
+                <h1 className={style.header}>Cosa vedere a Kyoto</h1>
                 <br></br>
                 <p> Per oltre un millennio, dal 794 al 1868, Kyoto fu capitale del Giappone e residenza dell’Imperatore. 
                 <br></br>Antica città immersa nella storia e nelle tradizioni, mostra ancora oggi tutti i segni del suo splendente passato ed affascina i visitatori con i suoi numerosi templi e giardini zen.

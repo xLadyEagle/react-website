@@ -10,6 +10,7 @@ import Nara from './components/pages/Nara';
 import Tokyo from './components/pages/Tokyo';
 import Kyoto from './components/pages/Kyoto';
 import Osaka from './components/pages/Osaka';
+import Curiosità from './components/pages/Curiosità';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/nara" component={Nara} />
         <Route path="/primavera" component={Primavera} />
         <Route path="/cucina" component={Cucina} />
+        <Route path="/curiosità" component={Curiosità} />
       </Switch>
       <Footer />
     </Router>

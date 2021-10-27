@@ -10,7 +10,7 @@ export default function Nara()  {
                     <h1 className={style.title}>NARA</h1>
             </div>
             <div className={style.text}>
-                <h1>Cosa vedere a Nara</h1>
+                <h1 className={style.header}>Cosa vedere a Nara</h1>
                 <p> Nara si trova a sud-est di Kyoto, un antico poeta giapponese la definì <b>“un fiore profumato in piena fioritura”</b>.
                     L’antica prefettura di Yamato, oggi prefettura di Nara, è <b>una delle culle della civiltà giapponese</b>.
                     Qui si trovano importanti templi ed un enorme parco al cui interno girano indisturbati migliaia di cervi.
