@@ -44,7 +44,7 @@ function Footer() {
                             JAPAN <i className="fas fa-spa" />
                         </Link>
                     </div>
-                    <small className="website-rights">JAPAN&copy;</small>
+                    <small className="website-rights">Giulietta Montenegro&copy;</small>
                     <div className="social-icons">
                         <Link 
                             className="social-icon-link facebook"
