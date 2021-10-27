@@ -6,7 +6,7 @@ export default function Nara()  {
     return ( 
         <Fragment>
             <div className={style.title}>
-                    <img src="/images/nara.jpg" alt="Nara" />
+                    <img src="./images/nara.jpg" alt="Nara" />
                     <h1 className={style.title}>NARA</h1>
             </div>
             <div className={style.text}>
@@ -23,28 +23,28 @@ export default function Nara()  {
                                 che ospita il Buddha Daibutsu (il più grande al mondo, alto 15 metri). Sul retro del Daibutsu – Den è situato un pilastro con un foro al centro: 
                                 si dice che le persone che riescono ad attraversarlo ricevano una sorta di “illuminazione”, 
                                 ma essendo uno spazio stretto, solo i bambini generalmente riescono a passare attraverso.</p>
-                                <img className={style.thumbnail} src="/images/todaiji-nara.jpg" alt="Todai–Ji"/>
+                                <img className={style.thumbnail} src="./images/todaiji-nara.jpg" alt="Todai–Ji"/>
                             </li><br></br>
                             
                             <li><h2>Tempio Horyuji</h2>
                                 <p>Il tempio Horyu – Ji si trova ad Ikaruga, a circa 15 km a sud di Nara ed ospita alcuni degli edifici in legno più antichi del mondo 
                                 e contiene alcune delle raffigurazioni buddiste più importanti del Paese.
                                 Il tempio è patrimonio dell’umanità UNESCO.</p>
-                                <img className={style.thumbnail} src="/images/TempioHoryuji.jpg" alt="Tempio Horyuji"/>
+                                <img className={style.thumbnail} src="./images/TempioHoryuji.jpg" alt="Tempio Horyuji"/>
                             </li><br></br>
         
                             <li><h2>Giardino Isuien</h2>
                                 <p>Il giardino Isuien, situato non lontano dal tempio TodaiJi è uno dei fiori all’occhiello della città di Nara, un’oasi verde progettata utilizzando la tecnica dello shakkei. 
                                 Il nome Isui – en significa “giardino costruito sull’acqua”, perché al suo interno è ricco di laghi grandi e piccoli. Il lago più grande si trova poco lontano dal cancello d’ingresso. 
                                 Oltre ai suoi laghi e viali il giardino ospita un museo ed una sala da tè.</p>
-                                <img className={style.thumbnail} src="/images/Isuien-Garden.jpg" alt="Giardino Isuien"/>
+                                <img className={style.thumbnail} src="./images/Isuien-Garden.jpg" alt="Giardino Isuien"/>
                             </li><br></br>
                             
                             <li><h2>Nara koen, Parco di Nara</h2>
                                 <p>Il Parco di Nara (koen in giapponese significa parco), è un’enorme riserva naturale che si estende dalla parte bassa di Nara e Naramachi fino ai piedi delle colline.
                                 Questo parco comprende le aree del TodaiJi, del Giardino Isuien e il Santuario Kasuga Taisha. 
                                 La sua caratteristica più interessante è l’alto numero di cervi che lo popolano e che frequentemente si avvicinano ai passanti per essere nutriti.</p>
-                                <img className={style.thumbnail} src="/images/Parco-di-Nara.jpg" alt="Parco di Nara"/>
+                                <img className={style.thumbnail} src="./images/Parco-di-Nara.jpg" alt="Parco di Nara"/>
                             </li><br></br>
         
                             <li><h2>Kasuga Taisha</h2>
@@ -52,7 +52,7 @@ export default function Nara()  {
                             È stato costruito quando è stata spostata la capitale a Nara, ed è dedicato alla divinità responsabile per la protezione della città. 
                             Il santuario, con le sue colonne color vermiglio, i muri bianchi e i tetti in legno emana un’aura di spiritualità ed è perfettamente incastonato nel parco 
                             che lo circonda, anch’esso un’opera d’arte grazie ai 300 tipi diversi di alberi e piante presenti, al complesso intreccio di viali e in particolare alle lanterne di pietra che lo caratterizzano.</p>
-                            <img className={style.thumbnail} src="/images/Kasuga-taisha.jpg" alt="Kasuga Taisha"/>
+                            <img className={style.thumbnail} src="./images/Kasuga-taisha.jpg" alt="Kasuga Taisha"/>
                         </li><br></br>
                         </ol>
             </div>

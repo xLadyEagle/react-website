@@ -6,7 +6,7 @@ export default function Kyoto()  {
     return ( 
         <Fragment>
             <div className={style.title}>
-                    <img src="/images/kyoto-streets.jpg" alt="Kyoto" />
+                    <img src="./images/kyoto-streets.jpg" alt="Kyoto" />
                     <h1 className={style.title}>KYOTO</h1>
             </div>
             <div className={style.text}>
@@ -26,7 +26,7 @@ export default function Kyoto()  {
                             I sentieri conducono nella foresta boscosa e fino alla cima del sacro monte Inari, che raggiunge un’altezza di 233 metri sopra il livello del mare. 
                             Questa particolarità rende questo luogo davvero magico e unico nel suo genere.
                             <br></br>Fushimi Inari è anche il santuario più antico e venne costruito prima ancora della nascita di Kyoto.</p>
-                                <img className={style.thumbnail} src="/images/Fushimi-Inari-Taisha-Kyoto.jpg" alt="Fushimi Inari"/>
+                                <img className={style.thumbnail} src="./images/Fushimi-Inari-Taisha-Kyoto.jpg" alt="Fushimi Inari"/>
                             </li><br></br>
                             
                             <li><h2>Arashiyama  (嵐山)</h2>
@@ -34,7 +34,7 @@ export default function Kyoto()  {
                                 <br></br>Si possono ammirare bellissimi paesaggi naturali e visitare alcuni dei numerosi templi della zona.
                                 <br></br>Arashiyama si trova a poco più di un quarto d’ora di treno dal centro della città di Kyoto; 
                                 un viaggio breve che vi farà immergere in un’atmosfera di profonda quiete.</p>
-                                <img className={style.thumbnail} src="/images/bamboo.jpg" alt="Arashiyama"/>
+                                <img className={style.thumbnail} src="./images/bamboo.jpg" alt="Arashiyama"/>
                             </li><br></br>
         
                             <li><h2>Gion (祇園)</h2>
@@ -42,7 +42,7 @@ export default function Kyoto()  {
                                 Inoltre, è stato proclamato patrimonio culturale del Giappone.
                                 La zona in cui è più facile avvistare delle geisha è la via di Hanamikoji.
                                 L’attrazione più importante del quartiere Gion resta comunque il tempio di Yasaka, un santuario scintoista composto da svariati edifici.</p>
-                                <img className={style.thumbnail} src="/images/gion-kyoto.jpg" alt="Gion"/>
+                                <img className={style.thumbnail} src="./images/gion-kyoto.jpg" alt="Gion"/>
                             </li><br></br>
                             
                             <li><h2>Kiyomizu-dera (清水寺)</h2>
@@ -51,14 +51,14 @@ export default function Kyoto()  {
                                 <br></br>Dall’ampia terrazza in legno si può ammirare uno straordinario panorama su Kyoto.
                                 Il tempio Kiyomizudera è legato alla setta buddista degli Hosso e il nome affonda le sue radici nella cascata che scorre all’interno dell’imponente complesso: 
                                 Kiyomizu significa acqua pura oppure acqua chiara.</p>
-                                <img className={style.thumbnail} src="/images/Kiyomizu-dera.jpg" alt="Kiyomizu-dera"/>
+                                <img className={style.thumbnail} src="./images/Kiyomizu-dera.jpg" alt="Kiyomizu-dera"/>
                             </li><br></br>
         
                             <li><h2>Higashiyama (東山)</h2>
                                 <p>Il quartiere di Higashiyama si trova nella parte orientale della città. 
                                 <br></br>Il distretto storico circostante il tempio Kiyomizu-dera è uno dei posti più adatti per immergersi nelle atmosfere della Kyoto tradizionale, caratterizzato da casette di legno e piccole botteghe.
                                 <br></br>Il suo nome rimanda subito al nome della montagna su cui il distretto si appoggia, la cosiddetta montagna dell’Est.</p>
-                                <img className={style.thumbnail} src="/images/higashiyama-pagoda-kyoto.jpg" alt="Higashiyama"/>
+                                <img className={style.thumbnail} src="./images/higashiyama-pagoda-kyoto.jpg" alt="Higashiyama"/>
                             </li><br></br>
                         </ol>
             </div>

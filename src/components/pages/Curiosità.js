@@ -6,7 +6,7 @@ export default function Curiosità()  {
     return ( 
         <Fragment>
             <div className={style.title}>
-                    <img src="/images/Akihabara2.jpg" alt="Akihabara" />
+                    <img src="./images/Akihabara2.jpg" alt="Akihabara" />
                     <h1 className={style.title}>CURIOSITÁ</h1>
             </div>
             <div className={style.text}>
@@ -22,7 +22,7 @@ export default function Curiosità()  {
                                 Si trovano <b>ovunque</b>: nelle metropoli, lungo le strade percorse dai pendolari, presso le stazioni e i luoghi di culto e persino nelle zone più rurali e remote del paese.
                                 In Giappone si può trovare qualsiasi cosa ai distributori automatici, dagli ortaggi alle bevande, dalle tagliatelle alle camicie, persino il ramen.
                                 </p>
-                                <img className={style.thumbnail} src="/images/vending-machines.jpg" alt="Distributori automatici"/>
+                                <img className={style.thumbnail} src="./images/vending-machines.jpg" alt="Distributori automatici"/>
                             </li><br></br>
                             
                             <li><h2>Tombini giapponesi</h2>
@@ -33,7 +33,7 @@ export default function Curiosità()  {
                                 Era il 2018 quando il primo tombino Pokémon venne installato nella prefettura di Kagoshima, sull’isola sud-occidentale del Kyushu. 
                                 Da allora altri <b>Pokétombini</b>, o Pokéfuta come li chiamano ufficialmente in giapponese, sono stati installati in 8 prefetture.
                                 </p>
-                                <img className={style.thumbnail} src="/images/tombino.jpg" alt="Tombini giapponesi"/>
+                                <img className={style.thumbnail} src="./images/tombino.jpg" alt="Tombini giapponesi"/>
                             </li><br></br>
         
                             <li><h2>Cibo di plastica</h2>
@@ -46,13 +46,13 @@ export default function Curiosità()  {
                                 Sono così somiglianti agli originali che a volte ci si stupisce che non si possano mangiare.
                                 A quel punto tutto quello che devi fare è indicare la pietanza che hai voglia di consumare, senza aver problema di venir frainteso.
                                 </p>
-                                <img className={style.thumbnail} src="/images/sampuru.jpg" alt="Cibo di plastica"/>
+                                <img className={style.thumbnail} src="./images/sampuru.jpg" alt="Cibo di plastica"/>
                             </li><br></br>
 
                             <li><h2>Un mondo in stile kawaii</h2>
                                 <p>Il concetto di <i>kawaii</i> ha finito per estendersi a una moltitudine di sfaccettature della società giapponese. 
                                 Infatti esiste questa tendenza a rendere fanciullesco e bambinesco il cibo, il vestiario, le insegne urbane, gli oggetti di uso quotidiano e perfino gli strumenti di lavoro.</p>
-                                <img className={style.thumbnail} src="/images/construction-Japan.jpg" alt="Cartello Kawaii"/>
+                                <img className={style.thumbnail} src="./images/construction-Japan.jpg" alt="Cartello Kawaii"/>
                             </li><br></br>
 
                             <li><h2>La frutta più costosa al mondo</h2>
@@ -61,7 +61,7 @@ export default function Curiosità()  {
                                 Infatti il <b>popolo</b> nipponico è molto <b>goloso di frutta</b>.
                                 I prezzi sono talmente alti che un <b>regalo comune molto apprezzato</b> in Giappone consiste in un bel cestino di frutta confezionato con cura oppure in un unico frutto “di lusso” come un grande pompelmo avvolto in un fiocco o un costosissimo cocomero dalla forma rettangolare.
                                 </p>
-                                <img className={style.thumbnail} src="/images/fragola-bianca.jpg" alt="Frutta"/>
+                                <img className={style.thumbnail} src="./images/fragola-bianca.jpg" alt="Frutta"/>
                             </li><br></br>
 
                             <li><h2>Kit Kat dai sapori unici</h2>
@@ -69,7 +69,7 @@ export default function Curiosità()  {
                                 Tradotto direttamente vorrebbe dire “vincerai sicuramente”. I Kit Kat sono famosi per tutte le età in Giappone. 
                                 Ci sono <b>più di 200 gusti diversi</b> e se ne vengono creati sempre di nuovi.
                                 </p>
-                                <img className={style.thumbnail} src="/images/kit-kat.jpg" alt="Kit Kat"/>
+                                <img className={style.thumbnail} src="./images/kit-kat.jpg" alt="Kit Kat"/>
                             </li><br></br>
                             
                             <li><h2>Washlet musicali</h2>
@@ -81,14 +81,14 @@ export default function Curiosità()  {
                                 <br></br>In alcune sale giochi ci sono anche installati dei giochini interattivi con cui tenersi occupati.
                                 <br></br>Le toilette sono ipertecnologiche e hanno svariati optional, anche la musica.
                                 </p>
-                                <img className={style.thumbnail} src="/images/Best-Japanese-Toilets.jpg" alt="Washlet musicali"/>
+                                <img className={style.thumbnail} src="./images/Best-Japanese-Toilets.jpg" alt="Washlet musicali"/>
                             </li><br></br>
 
                             <li><h2>Okoshima, l'isola dei conigli</h2>
                                 <p>Ōkunoshima (大久野島) è una <b>piccola isola</b> situata a breve distanza da Tadanoumi nella prefettura di Hiroshima, detta anche l'isola dei conigli (usagishima o usagijima). 
                                 <b>Centinaia di conigli selvatici</b> abitano infatti l'isola e si offrono numerosi alla vista dei visitatori, fin dall'arrivo in battello.
                                 </p>
-                                <img className={style.thumbnail} src="/images/okunoshima.jpg" alt="Okunoshima"/>
+                                <img className={style.thumbnail} src="./images/okunoshima.jpg" alt="Okunoshima"/>
                             </li><br></br>
         
                             <li><h2>Rifiuti</h2>
@@ -97,7 +97,7 @@ export default function Curiosità()  {
                                 <br></br>I criminali nascosero un gas tossico nei cestini di alcune stazioni della metro, gas che una volta rilasciato uccise 12 persone e ne ferì più di 5 mila. 
                                 A seguito di questo incidente il Governo optò per diminuire drasticamente il numero di cestini per evitare che la tragedia si potesse ripetere.
                                 </p>
-                                <img className={style.thumbnail} src="/images/gion-clean-streets.jpeg" alt="Rifiuti"/>
+                                <img className={style.thumbnail} src="./images/gion-clean-streets.jpeg" alt="Rifiuti"/>
                             </li><br></br>
                         </ol>
                 </div>

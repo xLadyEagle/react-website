@@ -10,22 +10,22 @@ function Cards() {
                     <div className="cards-wrapper">
                         <ul className="cards-items">
                             <CardItem 
-                            src="images/image.jpeg"
+                            src="./images/image.jpeg"
                             text="Kyoto"
                             path="/Kyoto"/>
 
                             <CardItem 
-                            src="images/nara.jpg"
+                            src="./images/nara.jpg"
                             text="Nara"
                             path="/Nara"/>
 
                             <CardItem 
-                            src="images/Osaka.jpg"
+                            src="./images/Osaka.jpg"
                             text="Osaka"
                             path="/Osaka"/>
                     
                             <CardItem 
-                            src="images/Tokyo Skyline.jpg"
+                            src="./images/Tokyo Skyline.jpg"
                             text="Tokyo"
                             path="/Tokyo"/>
                         </ul> 
