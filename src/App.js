@@ -15,7 +15,7 @@ import Curiosità from './components/pages/Curiosità';
 function App() {
   return (
     <Fragment>
-    <Router basename="/">
+    <Router basename={window.location.pathname || ''}>
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
