@@ -13,12 +13,7 @@ function Cards() {
                             src="images/image.jpeg"
                             text="Kyoto"
                             path="/Kyoto"/>
-                    
-                            <CardItem 
-                            src="images/Tokyo Skyline.jpg"
-                            text="Tokyo"
-                            path="/Tokyo"/>
-                            
+
                             <CardItem 
                             src="images/nara.jpg"
                             text="Nara"
@@ -28,6 +23,11 @@ function Cards() {
                             src="images/Osaka.jpg"
                             text="Osaka"
                             path="/Osaka"/>
+                    
+                            <CardItem 
+                            src="images/Tokyo Skyline.jpg"
+                            text="Tokyo"
+                            path="/Tokyo"/>
                         </ul> 
                     </div>    
                 </div>

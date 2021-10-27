@@ -1,29 +1,41 @@
-body{
-    background:#d4ced3;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: justify;
+.title {
+    color: rgba(247, 239, 239, 0.884);
+    font-size: 80px;
+    margin: 0px;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
 }
 
+.text {
+    padding: 4rem;
+    background: rgba(255, 255, 255, 0.753);
+    justify-content: right;
+    color: #000;
+    font-size: 23px;
+    line-height: 24px;
+    text-align: justify; 
+}
 
 p {
-    font-weight: 400;
     justify-content: right;
     color: #000;
     font-size: 20px;
     margin-bottom: 15px;
     line-height: 36px;
-
 }
 
-section {
-  margin: 2%; 
-}
 
 /*  Immagini */
 
 .gallery {
     font-size: 16px;
-    margin: 2%;
+    margin-left: 4%;
     border: 1px solid #ccc;
     background-color: rgb(255, 255, 255);
     float: left;
@@ -47,7 +59,7 @@ section {
 
 .left {
   float: left;
-  margin: 2%;
+  margin: 0%;
   width: 50%;
 } 
 
@@ -81,6 +93,7 @@ section {
   height: calc(100% - 41px);
   object-fit: cover; 
   transition: .5s;
+  z-index: 0;
 }
 
 .boxspan {
@@ -102,4 +115,5 @@ section {
     width: 50%;
     margin: 2%;
     position: relative;
+    z-index: 0;
 }

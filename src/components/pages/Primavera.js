@@ -5,9 +5,14 @@ import React, { Fragment } from 'react';
 export default function Primavera() {
     return (
        <Fragment>
-            <section>
+            <div className={style.title}>
+                    <img src="/images/primavera2.jpg" alt="Cherry blossoms" />
+                    <h1 className={style.title}>PRIMAVERA</h1>
+            </div>
+            <section className={style.text}>
                     <aside className={style.left}>
                         <h2>La fioritura dei ciliegi</h2>
+                        <br></br>
                         <p>Il <b>fiore di ciliegio</b> giapponese, detto anche <i>sakura</i>, è stato adorato a lungo da persone di tutto il mondo. 
                             È considerato un <b>simbolo di rinnovamento</b>, bellezza e vitalità. <br></br>Ogni anno, durante la stagione primaverile, 
                             migliaia di persone giungono in Giappone per ammirare il <b>meraviglioso spettacolo</b> di questi fiori bianchi o rosa, 
@@ -28,7 +33,8 @@ export default function Primavera() {
                     </div>
             
                     <section className={style.clear}>
-                        <h2>Cos'è l'hanami?</h2>   
+                        <h2>Cos'è l'hanami?</h2>
+                        <br></br>   
                         <p>Letteralmente, “hanami” significa “ammirare i fiori” e in Giappone si tratta di una vera e propria tradizione. 
                         La tradizione dell’hanami ha una storia millenaria e viene vissuta intensamente da tutto il Giappone, specialmente attraverso 
                         picnic all'ombra dei ciliegi in fiore, in cui si radunano familiari, amici e colleghi di lavoro, che si tengono in parchi, 
@@ -67,17 +73,18 @@ export default function Primavera() {
 
                     <section>
                         <h2>Previsioni fioritura dei ciliegi 2022</h2>
+                        <br></br>
                         <img className={style.map} src="/images/forecast2022.png" alt="Mappa fioritura 2022" /> 
                         
                         <p>Il tempo medio di fioritura dei <i>sakura</i> può variare a seconda della posizione geografica 
                             all’interno del paese. Le aree con climi invernali più miti vedono fiorire prima i ciliegi. Solitamente, nelle regioni meridionali 
                             la fioritura avviene prima, procedendo man mano verso nord. Il vento, la pioggia e la temperatura possono anticipare o posticipare 
-                            la fioritura e allungare o accorciare la stagione dei fiori di ciliegio.</p>
+                            la fioritura e allungare o accorciare la stagione dei fiori di ciliegio.</p><br></br>
                     </section>
 
                     <section>
                         <h2>La fioritura dei ciliegi a Tokyo</h2>
-
+                        <br></br>
                         <div className={style.clear}>
                         <p>Nonostante si tratti di una grande città, anche a Tokyo ci sono tantissimi posti da cui ammirare i ciliegi in fiore.<br></br>
                             Di seguito elenchiamo i <b>5 posti migliori</b> per ammirare la bellezza effimera dei fiori.
@@ -106,6 +113,7 @@ export default function Primavera() {
 
                         
                         <ol className={style.clear}>
+                        <br></br>
                             <li><b>Meguro River (目黒川)</b> 
                             <p>Uno dei luoghi più famosi per ammirare i ciliegi in fiore a Tokyo è il fiume Meguro, oltre 800 ciliegi formano una galleria rosa per 3,8 chilometri lungo il fiume in un panorama mozzafiato perfetto da fotografare.</p></li>
                             
