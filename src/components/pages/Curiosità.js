@@ -10,7 +10,8 @@ export default function Curiosità()  {
                     <h1 className={style.title}>CURIOSITÁ</h1>
             </div>
             <div className={style.text}>
-                <h1>Curiosità sul Giappone</h1>
+                <h1 className={style.header}>Curiosità sul Giappone</h1>
+                <br></br>
                 <p> Il Giappone è un paese affascinante e misterioso in cui spesso sembra di trovarsi in un’altra dimensione che sia di un passato legato alle tradizioni o di un luogo ultra futuristico. 
                 Le sue peculiarità e caratteristiche sono infinite tanto da dare vita ad una serie di curiosità uniche e bizzarre, tra cui alcune elencate di seguito.</p>
                 <div>
@@ -21,7 +22,7 @@ export default function Curiosità()  {
                                 Si trovano <b>ovunque</b>: nelle metropoli, lungo le strade percorse dai pendolari, presso le stazioni e i luoghi di culto e persino nelle zone più rurali e remote del paese.
                                 In Giappone si può trovare qualsiasi cosa ai distributori automatici, dagli ortaggi alle bevande, dalle tagliatelle alle camicie, persino il ramen.
                                 </p>
-                                <img className={style.thumbnail} src="/images/distributori.jpg" alt="Distributori automatici"/>
+                                <img className={style.thumbnail} src="/images/vending-machines.jpg" alt="Distributori automatici"/>
                             </li><br></br>
                             
                             <li><h2>Tombini giapponesi</h2>
