@@ -37,10 +37,10 @@ function Navbar() {
                             <button className="dropbtn">Cosa vedere
                             <i class="fa fa-caret-down"></i></button>
                             <div className="dropdown-content">
-                                <Link to="/kyoto">Kyoto</Link>
-                                <Link to="/nara">Nara</Link>
-                                <Link to="/osaka">Osaka</Link>
-                                <Link to="/tokyo">Tokyo</Link> 	
+                                <Link to="/kyoto" onClick={closeMobileMenu}>Kyoto</Link>
+                                <Link to="/nara" onClick={closeMobileMenu}>Nara</Link>
+                                <Link to="/osaka" onClick={closeMobileMenu}>Osaka</Link>
+                                <Link to="/tokyo" onClick={closeMobileMenu}>Tokyo</Link> 	
                             </div>
                         </li>
                         <li className='nav-item'>
