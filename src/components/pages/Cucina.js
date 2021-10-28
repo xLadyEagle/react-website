@@ -1,8 +1,12 @@
 import style from '../Cucina.module.css';
-import React, { Fragment } from 'react';
+import React, { useEffect, Fragment } from 'react';
 
 
 export default function Cucina() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return ( 
 
     <Fragment>

@@ -1,8 +1,12 @@
 import style from '../Cities.module.css';
-import React, { Fragment } from 'react';
+import React, { useEffect, Fragment } from 'react';
 
 
 export default function Osaka()  {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return ( 
         <Fragment>
             <div className={style.title}>

@@ -13,12 +13,12 @@
     object-fit: contain;
 }
 
-p{
+p {
     font-size: 23px;
 }
 
 .text {
-    padding: 12rem;
+    padding: 8%;
     background: rgba(255, 255, 255, 0.753);
     text-align: justify;
   }
@@ -29,7 +29,7 @@ p{
   }
 
   .list {
-      padding: 4rem;
+      padding: 2%;
       list-style: none;
   }
 
@@ -41,3 +41,39 @@ p{
       margin-bottom: 2%;
       margin-top: 2%;
   }
+
+
+
+  @media screen and(max-width: 960px) {
+    .title > h1 {
+        font-size: 70px;
+        margin-top: -150px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .text > h1 {
+        font-size: 30px;
+        margin-top: -150px;
+    }
+ 
+    .header {
+        font-size: 20px;
+    }
+
+
+}
+
+    @media screen and(max-width: 768px) {
+        .text > h1 {
+            font-size: 50px;
+          
+
+        }
+        .text {
+            font-size: 30px;
+        }
+
+    }
