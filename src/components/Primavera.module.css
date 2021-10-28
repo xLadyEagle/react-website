@@ -117,3 +117,24 @@ p {
     position: relative;
     z-index: 0;
 }
+
+
+@media screen and (max-width: 960px) {
+  .title {
+      height: 84vh;
+  }
+  .title > h1 {
+    font-size: 60px;
+  }
+  .left {
+   width: 100%;
+  }
+  .gallery {
+    width: 40%;
+    display: inline;
+    font-size: 12px;
+  }
+  .text {
+    padding: 8%;
+  }
+}

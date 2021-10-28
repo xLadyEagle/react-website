@@ -8,10 +8,7 @@ export default function Cucina() {
       }, [])
 
     return ( 
-
     <Fragment>
-
-
             <div className={style.title}>
                     <img src="/react-website/images/japanstreets-21.jpg" alt="Mangiare in Giappone" />
                     <h1 className={style.title}>CUCINA GIAPPONESE</h1>

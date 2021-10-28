@@ -34,9 +34,10 @@ export default function Primavera() {
                     <div className={style.gallery}>
                         <img className={style.gallerycard} src="/react-website/images/train.jpg" alt="Cherry Blossoms" />
                         <div className={style.caption}>Cherry Blossoms</div>
-                    </div>
+                    </div><br></br>
             
                     <section className={style.clear}>
+                    <br></br>
                         <h2>Cos'è l'hanami?</h2>
                         <br></br>   
                         <p>Letteralmente, “hanami” significa “ammirare i fiori” e in Giappone si tratta di una vera e propria tradizione. 
