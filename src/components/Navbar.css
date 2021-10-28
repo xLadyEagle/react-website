@@ -34,6 +34,11 @@
     margin-left: 0.5rem;
     font-size: 1.8rem;
   }
+
+  .fa-caret-down {
+    margin-left: 0.5rem;
+    font-size: 1.8rem;
+  }
   
   .nav-menu {
     display: grid;
@@ -46,8 +51,8 @@
     margin-right: 2rem;
   }
 
-  .nav-item {
-    height: 10px;
+  .nav-item, .dropdown {
+    height: 20px;
   }
   
   .nav-links, .dropbtn {
@@ -62,6 +67,16 @@
 
   /* Dropdown */
 
+  .dropbtn {
+    font-size: 1.3rem;    
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
   .dropdown-content {
     display: none;
     margin-top: 5px;
@@ -73,6 +88,7 @@
   }
 
   .dropdown-content a {
+    float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -120,8 +136,9 @@
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
+      justify-content: space-evenly;
     }
-  
+
     .nav-menu.active {
       background: #242222;
       left: 0;
@@ -129,7 +146,7 @@
       transition: all 0.5s ease;
       z-index: 1;
     }
-  
+
     .nav-links {
       text-align: center;
       padding: 2rem;
@@ -164,25 +181,13 @@
       color: #fff;
       font-size: 2rem;
     }
-  
-    .nav-links-mobile {
+
+  .dropdown {float: none;}
+    .dropdown-content {position: relative;}
+    .dropdown, .dropbtn {
       display: block;
+      padding: 2rem;
+      width: 100%;
       text-align: center;
-      margin: 2rem auto;
-      border-radius: 4px;
-      width: 80%;
-      text-decoration: none;
-      font-size: 1.5rem;
-      background-color: transparent;
-      color: #fff;
-      padding: 14px 20px;
-      border: 1px solid #fff;
-      transition: all 0.3s ease-out;
     }
-  
-    .nav-links-mobile:hover {
-      background: #fff;
-      color: #242424;
-      transition: 250ms;
-    }
-  }
+}

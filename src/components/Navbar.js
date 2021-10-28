@@ -33,8 +33,9 @@ function Navbar() {
                                 Home
                             </Link>
                         </li>
-                        <li className="nav-item dropdown">
-                            <Link to= "" className="dropbtn">Cosa vedere</Link>
+                        <li className="dropdown">
+                            <button className="dropbtn">Cosa vedere
+                            <i class="fa fa-caret-down"></i></button>
                             <div className="dropdown-content">
                                 <Link to="/kyoto">Kyoto</Link>
                                 <Link to="/nara">Nara</Link>
@@ -55,11 +56,6 @@ function Navbar() {
                         <li className='nav-item'>
                             <Link to="/curiosità" className="nav-links" onClick={closeMobileMenu}>
                                 Curiosità
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
-                                Sign Up
                             </Link>
                         </li>
                     </ul>
