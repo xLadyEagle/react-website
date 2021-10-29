@@ -30,10 +30,9 @@ function Footer() {
                     </div>
                     <div className="footer-link-item">
                         <h2>Social Media</h2>
-                        <Link to="/">Instagram</Link>
-                        <Link to="/">Facebook</Link>
-                        <Link to="/">LinkedIn</Link>
-                        <Link to="/">YouTube</Link>
+                        <a href="https://www.instagram.com/xladyeagle/" target="_blank">Instagram</a>
+                        <a href="https://www.facebook.com/giulietta.montenegro" target="_blank">Facebook</a>
+                        <a href="https://www.linkedin.com/in/giulietta-montenegro-3276921b8" target="_blank">LinkedIn</a>
                     </div>
                 </div>
             </div>
@@ -46,30 +45,30 @@ function Footer() {
                     </div>
                     <small className="website-rights">Giulietta Montenegro&copy;</small>
                     <div className="social-icons">
-                        <Link 
+                        <a 
                             className="social-icon-link facebook"
-                            to="/" 
+                            href="https://www.facebook.com/giulietta.montenegro" 
                             target="_blank" 
                             aria-label="Facebook"
                         >
                             <i className="fab fa-facebook-f"/>
-                        </Link>
-                        <Link 
+                        </a>
+                        <a
                             className="social-icon-link instagram"
-                            to="/" 
+                            href="https://www.instagram.com/xladyeagle/" 
                             target="_blank" 
                             aria-label="Instagram"
                         >
                             <i className="fab fa-instagram"/>
-                        </Link>
-                        <Link 
+                        </a>
+                        <a 
                             className="social-icon-link linkedin"
-                            to="/" 
+                            href="https://www.linkedin.com/in/giulietta-montenegro-3276921b8" 
                             target="_blank" 
                             aria-label="LinkedIn"
                         >
                             <i className="fab fa-linkedin"/>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </section>

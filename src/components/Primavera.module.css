@@ -14,7 +14,7 @@
 
 .text {
     padding: 12rem;
-    background: rgba(255, 255, 255, 0.753);
+    background: rgba(255, 255, 255, 0.822);
     justify-content: right;
     color: #000;
     font-size: 23px;
@@ -129,12 +129,28 @@ p {
   .left {
    width: 100%;
   }
+  
+  .left > h2, h2{
+    text-align: left;
+    font-size: 24px;
+   }
   .gallery {
-    width: 40%;
+    width: 45%;
     display: inline;
     font-size: 12px;
   }
+  .caption {
+    padding: 2%;
+  }
+  .map {
+    width: 100%;
+  }
   .text {
     padding: 8%;
+    
+  }
+  .clear, .clear > h2 {
+    padding: 2%;
+    font-size: 18px;
   }
 }

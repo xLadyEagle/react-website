@@ -156,7 +156,7 @@
     margin-bottom: 16px;
 }
 
-@media screen and (max-widht: 830 px) {
+@media screen and (max-width: 830px) {
     .footer-links {
         padding-top: 2rem;
     }

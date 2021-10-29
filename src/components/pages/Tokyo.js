@@ -32,19 +32,17 @@ export default function Tokyo()  {
                             </li><br></br>
 
                             <li><h2>Shinjuku (新宿)</h2> 
-                            <p>Shinjuku è il cuore della metropoli di Tokyo, qui si trovano tanti luoghi di interesse turistico e molti divertimenti per tutti i gusti.
+                            <p>Shinjuku è il <b>cuore della metropoli</b> di Tokyo, qui si trovano tanti luoghi di interesse turistico e <b>molti divertimenti</b> per tutti i gusti.
                             <br></br>La stazione dei treni di Shinjuku è una delle <b>più trafficate al mondo</b>, con il passaggio di 2 milioni di persone ogni giorno.
                             Shinjuku è il <b>luogo dello shopping</b> preferito dai tokyoti: ci sono boutique, grandi magazzini, negozi e centri commerciali sotterranei. </p>
                                 <img className={style.thumbnail} src="/react-website/images/shinjuku.jpg" alt="Shinjuku"/>
                             </li><br></br>
                             
-                            
-        
                             <li><h2>Akihabara (秋葉原)</h2>
                                 <p>Akihabara è la <b>capitale</b> giapponese dell’<b>elettronica</b>.
-                                Consigliato un megastore a est di Akihabara Station, che offre 9 piani di computer, fotocamere, attrezzature elettroniche varie e che si chiama Yodobashi Akiba.
-                                Inoltre Akihabara, o Akiba, è il quartiere famoso in tutto il mondo per i suoi grandissimi <b>negozi</b> pieni di <b>manga</b>, 
-                                <b>anime</b> e un'infinità di gadget ed è tappa obbligata per chi ama o vuole conoscere la cultura che affascina gli '<i>otaku</i>'.
+                                Consigliato un <b>megastore</b> a est di Akihabara Station, che offre <b>9 piani</b> di computer, fotocamere, attrezzature elettroniche varie e che si chiama Yodobashi Akiba.
+                                Inoltre Akihabara, o Akiba, è il quartiere famoso in tutto il mondo per i suoi grandissimi <b>negozi</b> pieni di <b>manga</b>,   
+                                <b> anime</b> e un'infinità di gadget ed è tappa obbligata per chi ama o vuole conoscere la cultura che affascina gli '<i>otaku</i>'.
                                 Nel cuore di Tokyo, ad Akihabara si arriva con la linea JR Yamanote.</p>
                                 <img className={style.thumbnail} src="/react-website/images/akihabara.jpg" alt="Akihabara"/>
                             </li><br></br>
@@ -52,16 +50,16 @@ export default function Tokyo()  {
                             <li><h2>Asakusa (浅草) </h2>
                                 <p>Asakusa (pronunciato <i>Asaksa</i>), si trova nella zona nord-est di Tokyo sul fiume Sumida. 
                                 È il <b>quartiere più “antico” della città</b>, dove troverete templi e negozi tipici.
-                                Moltitudini di persone sono attratte dal Tempio Senso-ji (o Tempio di Kannon – Dea della Misericordia -), 
-                                dalla Pagoda a 5 piani e dalla tradizionale via dello shopping “Nakamise”.</p>
+                                Moltitudini di persone sono attratte dal <b>Tempio Senso-ji</b> (o Tempio di Kannon – Dea della Misericordia -), 
+                                dalla <b>Pagoda a 5 piani</b> e dalla tradizionale <b>via dello shopping “Nakamise”</b>.</p>
                                 <img className={style.thumbnail} src="/react-website/images/asakusa.jpg" alt="Asakusa"/>
                             </li><br></br>
         
                             <li><h2>Odaiba (お台場)</h2>
-                            <p>Odaiba è uno dei maggiori centri per lo shopping e il divertimento di Tokyo. Situato sul waterfront, nella Baia di Tokyo, 
+                            <p>Odaiba è uno dei <b>maggiori centri per lo shopping e il divertimento</b> di Tokyo. Situato sul waterfront, nella Baia di Tokyo, 
                                 il quartiere di Odaiba sorge su <b>due grandi isole artificiali</b> ed è attrezzato con tutto quello che serve per divertirsi: 
                                 centri sportivi, negozi, musei, hotel, centri commerciali e parchi divertimento.
-                                <br></br>Odaiba si collega a Tokyo tramite il <i>Rainbow Bridge</i>. Il ponte a due piani è un simbolo della baia ed è particolarmente bella la sua <b>illuminazione notturna</b>.</p>
+                                <br></br>Odaiba si collega a Tokyo tramite il <i>Rainbow Bridge</i>. Il ponte a due piani è un <b>simbolo della baia</b> ed è particolarmente bella la sua <b>illuminazione notturna</b>.</p>
                             <img className={style.thumbnail} src="/react-website/images/gundam.jpg" alt="Odaiba"/>
                         </li><br></br>
 
@@ -69,11 +67,11 @@ export default function Tokyo()  {
                             <p>Narita è una città giapponese della prefettura di Chiba situata a circa 60 chilometri ad est di Tokyo, ed è molto famosa anche per 
                             l’<b>Aeroporto Internazionale</b> di Narita, uno degli hub più importanti del Paese, considerato come la <b>porta d’accesso al Giappone</b>.
                             <br></br>Sono molti i motivi per i quali è consigliato visitare questa la città: templi, sorgenti termali, ottimo cibo e incredibili musei sono solo alcune delle attrazioni che la città ed i suoi dintorni sono in grado offrire ai visitatori.
-                            <br></br>L’attrazione più interessante è senza dubbio il Naritasan Shinshoji, un famoso tempio buddista con una storia di oltre 1000 anni.</p>
+                            <br></br>L’attrazione più interessante è senza dubbio il <b>Naritasan Shinshoji</b>, un <b>famoso tempio buddista</b> con una storia di oltre 1000 anni.</p>
                             <img className={style.thumbnail} src="/react-website/images/narita.jpg" alt="Narita"/>
                         </li><br></br>
 
-                        <li><h2>Parco di Ueno (上野公園) </h2>
+                        <li><h2>Parco di Ueno (上野公園)</h2>
                             <p>Il Parco di Ueno è uno <b>storico parco</b> di Tokyo, tra i più antichi e famosi del Giappone. 
                             E’ situato nell’omonima area di Ueno, a nord di Tokyo e sono presenti numerosi musei e templi, oltre allo <b>Zoo</b>. 
                             Inoltre questo parco è molto <b>famoso per l’Hanami</b>, ovvero la fioritura dei ciliegi. <br></br>Al suo interno sono presenti <b>più di 8000 alberi di vario tipo</b> 
