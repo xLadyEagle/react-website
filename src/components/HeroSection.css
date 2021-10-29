@@ -36,7 +36,7 @@ img {
 @media screen and (max-width: 960px) {
 
     .hero-container {
-        height: 84vh;
+        height: 80vh;
     }
     .hero-container > h1 {
         font-size: 80px;
