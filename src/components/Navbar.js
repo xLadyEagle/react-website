@@ -34,7 +34,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="dropdown">
-                            <button className="dropbtn" onClick={closeMobileMenu}>Cosa vedere
+                            <button className="dropbtn">Cosa vedere
                             <i class="fa fa-caret-down"></i></button>
                             <div className="dropdown-content">
                                 <Link to="/kyoto" onClick={closeMobileMenu}>Kyoto</Link>
